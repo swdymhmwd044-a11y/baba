@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>إلى أبي ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="hearts"></div>
+
+<section id="lock" class="screen active">
+  <div class="card">
+    <div class="emoji">🎁</div>
+    <small>رسالة صغيرة من ابنك</small>
+    <h1>عندي حاجة صغيرة ليك يا بابا ❤️</h1>
+    <p>اختار تاريخ ميلادك عشان تفتح المفاجأة.</p>
+
+    <div class="dates">
+      <select id="day"><option value="">اليوم</option></select>
+      <select id="month"><option value="">الشهر</option></select>
+      <select id="year"><option value="">السنة</option></select>
+    </div>
+
+    <button onclick="openGift()">افتح المفاجأة ❤️</button>
+    <div id="error"></div>
+  </div>
+</section>
+
+<section id="message" class="screen">
+  <div class="card">
+    <div class="photo"><img src="images/photo1.jpg" alt="أنا وبابا"></div>
+    <small>إلى أبي ❤️</small>
+    <h2>كلام من قلبي ليك</h2>
+    <p>يمكن الكلام ده بسيط، لكنه جاي من قلبي ليك...</p>
+    <p>أنت مش بس بابا، أنت الشخص اللي كان موجود في كل خطوة، وسند من غير ما أطلب.</p>
+    <p>يمكن وأنا صغير مكنتش فاهم قيمة حاجات كتير عملتها عشاني، لكن كل يوم بكبر فيه بفهم أكتر قد إيه وجودك في حياتي نعمة.</p>
+    <p class="strong">ربنا يخليك ليا ولينا، ويديك الصحة والعمر، وأقدر في يوم من الأيام أفرحك وأخليك فخور بيا. ❤️</p>
+
+    <div class="photos">
+      <img src="images/photo2.jpg" alt="ذكرى">
+      <img src="images/photo3.jpg" alt="ذكرى">
+    </div>
+
+    <button onclick="showFinal()">في حاجة أخيرة عايز أقولها لك…</button>
+  </div>
+</section>
+
+<section id="final" class="screen">
+  <div class="card">
+    <div class="photo big"><img src="images/photo4.jpg" alt="أنا وبابا"></div>
+    <div class="emoji">🎂</div>
+    <small>يوم مميز جدًا ❤️</small>
+    <h2>كل سنة وأنت طيب يا بابا</h2>
+    <p>نفسي السنة دي تكون بداية لسنين كتير أشوفك فيها مبسوط وفخور بيا.</p>
+    <p>وربنا يخليك لينا، ويديك الصحة والعمر، وأقدر في يوم من الأيام أرد لك ولو جزء صغير من اللي عملته عشاني.</p>
+    <div class="signature">من ابنك...<strong>محمود ❤️</strong></div>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
